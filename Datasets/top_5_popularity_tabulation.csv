@@ -1,0 +1,6 @@
+Node,Connections (Degree),Degree Centrality,Eigenvector Centrality,Betweenness Centrality
+Donald J. Trump,183,0.6060,0.6973,0.9742
+Jared Kushner,19,0.0629,0.0625,0.1456
+Mike Pence,13,0.0430,0.0817,0.0301
+Ivanka Trump,13,0.0430,0.0823,0.0304
+Donald Trump Jr.,11,0.0364,0.0733,0.0323
