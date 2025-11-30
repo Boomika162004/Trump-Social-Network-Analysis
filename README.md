@@ -1,13 +1,22 @@
-**Trump Social Network Analysis (SNA)**
+📌 Trump Social Network Analysis (SNA)
 
-This project analyzes the social network of Donald J. Trump using advanced Social Network Analysis (SNA) techniques. It explores how individuals are connected, identifies key influencers, and uncovers hidden community structures within the network using centrality metrics and community detection algorithms.
+This repository contains the complete Social Network Analysis (SNA) project on the social connections of Donald J. Trump, exploring influence patterns, structural behavior, and community formation using Python, NetworkX, and Power BI.
 
-**🚀 Project Overview**
+🧠 Project Overview
 
-The network is constructed using node and edge data representing Trump’s social and political connections. Using Python and NetworkX, various metrics and algorithms are applied to better understand influence patterns, structural relationships, and community clusters.
+This project performs a deep analysis of Trump’s social connections by applying:
 
-**🧠 Key Features**
+Centrality Metrics
 
+Community Detection Algorithms
+
+Ego Network Visualizations
+
+Structural Properties
+
+The study reveals a hub-and-spoke network, where Donald Trump is the central influencer connected to multiple independent clusters.
+
+⭐ Key Features
 Centrality Metrics
 
 Degree Centrality
@@ -18,8 +27,7 @@ Closeness Centrality
 
 Eigenvector Centrality
 
-
-**Community Detection Algorithms**
+Community Detection
 
 Louvain Method
 
@@ -27,74 +35,61 @@ Leiden Algorithm
 
 Girvan–Newman Algorithm
 
+Additional Analysis
 
-**Additional Analysis**
+Ego Networks (Trump, Jared Kushner, Mike Pence)
 
-Ego network visualization
+Bridges & Structural Holes
 
-Network structure & modularity
+Degree Assortativity
 
-Degree assortativity
+Modularity Score Comparison
 
-Bridges & cluster formation
+📊 Key Results
+
+303 nodes and 366 edges
+
+32 communities detected
+
+High modularity score ≈ 0.614
+
+Negative assortativity: –0.362
+
+Trump acts as main hub
+
+Strongly separated communities (family, political aides, business associates)
 
 
-📊** Results Summary**
+🛠️ Technologies Used
 
-303 nodes and 366 edges in the full network
-
-Clear hub-and-spoke structure, with Donald Trump as the central hub
-
-32 distinct communities detected
-
-High modularity score (≈ 0.614) → strong community separation
-
-Negative assortativity (–0.362) → high-degree nodes connect to low-degree nodes
-
-Ego networks reveal direct influence clusters (Trump, Jared Kushner, Mike Pence)
-
-**📁 Repository Structure**
-/notebook         → Jupyter notebook (.ipynb)
-/presentation     → PPT slides
-/images           → Visualizations, ego networks, dashboard images, poster
-/data             → Nodes and edges CSV files
-/results          → Centrality results, community outputs
-README.md         → Project documentation
-
-**🛠️ Technologies Used**
-
-Python
+Python 3
 
 NetworkX
 
 Matplotlib
 
-Louvain & Leiden community libraries
-
-Power BI (Dashboards)
+Power BI
 
 Jupyter Notebook
 
-**📷 Visual Outputs Included**
-
-Full network graph
-
-Centrality histograms
 
 
-**📌 How to Run the Notebook**
+▶️ How to Run the Notebook
 
-Clone the repository
+Clone the repo
 
-**Install dependencies:**
+Install required packages:
 
 pip install networkx matplotlib numpy
 
-**Open the notebook:**
+
+Open the notebook:
+
 jupyter notebook trump_code.ipynb
 
 
-Run all cells to generate graphs, centrality scores, and communities
-Ego networks (Trump, Kushner, Pence)
+Run all cells to generate network graphs & results.
 
-Community detection plots
+✔️ License
+
+This project is for academic and educational use only.
