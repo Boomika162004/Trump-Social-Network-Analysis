@@ -1,12 +1,13 @@
-Trump Social Network Analysis (SNA)
+**Trump Social Network Analysis (SNA)**
 
 This project analyzes the social network of Donald J. Trump using advanced Social Network Analysis (SNA) techniques. It explores how individuals are connected, identifies key influencers, and uncovers hidden community structures within the network using centrality metrics and community detection algorithms.
 
-🚀 Project Overview
+**🚀 Project Overview**
 
 The network is constructed using node and edge data representing Trump’s social and political connections. Using Python and NetworkX, various metrics and algorithms are applied to better understand influence patterns, structural relationships, and community clusters.
 
-🧠 Key Features
+**🧠 Key Features**
+
 Centrality Metrics
 
 Degree Centrality
@@ -17,7 +18,8 @@ Closeness Centrality
 
 Eigenvector Centrality
 
-Community Detection Algorithms
+
+**Community Detection Algorithms**
 
 Louvain Method
 
@@ -25,7 +27,8 @@ Leiden Algorithm
 
 Girvan–Newman Algorithm
 
-Additional Analysis
+
+**Additional Analysis**
 
 Ego network visualization
 
@@ -35,7 +38,8 @@ Degree assortativity
 
 Bridges & cluster formation
 
-📊 Results Summary
+
+📊** Results Summary**
 
 303 nodes and 366 edges in the full network
 
@@ -49,7 +53,7 @@ Negative assortativity (–0.362) → high-degree nodes connect to low-degree no
 
 Ego networks reveal direct influence clusters (Trump, Jared Kushner, Mike Pence)
 
-📁 Repository Structure
+**📁 Repository Structure**
 /notebook         → Jupyter notebook (.ipynb)
 /presentation     → PPT slides
 /images           → Visualizations, ego networks, dashboard images, poster
@@ -57,7 +61,7 @@ Ego networks reveal direct influence clusters (Trump, Jared Kushner, Mike Pence)
 /results          → Centrality results, community outputs
 README.md         → Project documentation
 
-🛠️ Technologies Used
+**🛠️ Technologies Used**
 
 Python
 
@@ -71,23 +75,22 @@ Power BI (Dashboards)
 
 Jupyter Notebook
 
-📷 Visual Outputs Included
+**📷 Visual Outputs Included**
 
 Full network graph
 
 Centrality histograms
 
-📌 How to Run the Notebook
+
+**📌 How to Run the Notebook**
 
 Clone the repository
 
-Install dependencies:
+**Install dependencies:**
 
 pip install networkx matplotlib numpy
 
-
-Open the notebook:
-
+**Open the notebook:**
 jupyter notebook trump_code.ipynb
 
 
